@@ -10,7 +10,7 @@ class Game extends Component {
 
         return (
             <div>
-                <button onClick={(e) => onLevelSelect("EASY")} className="start-btn">New Game</button>
+                <button onClick={(e) => onLevelSelect("EASY")} className="start-btn">Click here to start the new game.</button>
 
                 {
                     <Table className='sudoku-table'>
